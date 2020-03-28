@@ -1,0 +1,1 @@
+# thesisexhibition_detail
