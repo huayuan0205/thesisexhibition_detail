@@ -1,0 +1,96 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#header {
+  position: fixed;
+  padding-left: 45px;
+  padding-top: 8px;
+  
+}
+h1{
+  font-size: 16pt;
+  font-weight: bold;
+  color: black;
+}
+#title-1{
+  display: inline-block;
+
+}
+#title-2{
+  display: inline-block;
+  margin-left: 20%;
+  position:fixed;
+}
+
+#graphic {
+  /* z-index:1; */
+  /* overflow-y: scroll; */
+}
+
+
+html,
+body{
+   height: 100%;
+   padding: 0;
+   scroll-behavior: smooth;
+   background: #f7f5f2;
+   color: #666;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+h2{
+  padding-top: 105px;
+  font-size: 14pt;
+}
+p{
+  line-height: 1.5;
+  font-size: 11pt;
+}
+text{
+  font-size: 10pt;
+}
+strong{
+  font-weight: 600;
+}
+#graphic {
+  max-width:  1440px;
+  width: 100%;
+  position:   relative; 
+  height:  100%;
+  position:  relative; 
+  margin:auto;
+}
+.container {
+  height: 100%;
+  max-width: 440px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  line-height: 1.5;
+  
+}
+.container div {
+  height: 100%;
+  display: block;
+  padding: 0 45px;
+}
+.fixed {
+  position: fixed;
+  max-width: 600px;
+  height: 500px;
+  top: 80px;
+  left: 40%;
+}
+#stage1{
+  width:175px;
+  height:500px;
+}
+#stage2{
+  width:300px;
+  height:250px;
+}
